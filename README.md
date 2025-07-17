@@ -39,8 +39,6 @@ Plant-Disease-Prediction/
 │   └── Plant_Disease_Prediction.ipynb  # Model development notebook
 ├── 📄 app.py                   # Flask application
 ├── 📄 plant_disease.json       # Disease information database
-├── 📄 requirements.txt         # Python dependencies
-├── 📄 config.py               # Configuration settings
 └── 📄 README.md               # This file
 ```
 
@@ -177,29 +175,6 @@ Plant-Disease-Prediction/
 
 *And many more...*
 
-## 🔧 Configuration
-
-### Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-FLASK_APP=app.py
-FLASK_ENV=development
-SECRET_KEY=your-secret-key-here
-MAX_CONTENT_LENGTH=5242880  # 5MB max file size
-```
-
-### Model Configuration
-
-Edit `config.py` to adjust model parameters:
-
-```python
-MODEL_PATH = 'models/plant_disease_model.h5'
-IMAGE_SIZE = (224, 224)
-BATCH_SIZE = 32
-CONFIDENCE_THRESHOLD = 0.7
-```
 
 ## 📊 Model Performance
 
